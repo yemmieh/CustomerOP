@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron" ng-app="CustomermerModule">
+    <div ng-controller="CustomerController">
+        <div class="row">
+            <div class="col-md-1"><label>Search</label></div>
+            <div class="col-md-1">
+                <input ng-model="nim" />
+            </div>
+        </div>
+        <br />
+        <div class="row"></div>
+        <div class="row"></div>
+        <div ng-view></div>
+
+        <a href="#/About">aboutpage</a>
+            <div class="table-responsive row">
+
+                <table class="table table-bordered table-condensed table-hover table-striped">
+                    <tr ng-hide="(customer | filter:nim) ==0">
+                        <th>FirstName</th>
+                        <th>LastName</th>
+                        <th>City</th>
+                        <th>Country</th>
+                    </tr>
+                    <tr ng-repeat="nam in customer | filter:nim">
+                        <td><a href="#">{{nam.FirstName}}</a></td>
+                        <td>{{nam.LastName}}</td>
+                        <td>{{nam.City}}</td>
+                        <td>{{nam.Country}}</td>
+                    </tr>
+                </table>
+                <span class="alert alert-info" ng-show="(customer | filter:nim) == 0">Oops!! No Record For your search</span>
+            </div>
+            @*<ul>
+                <li ng-repeat="name in names">{{name}}</li>
+            </ul>*@
+        </div>
+
+</div>

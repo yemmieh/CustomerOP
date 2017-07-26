@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a776364f580d43eb8832f91305368e79" Name="Diagram1">
+        <EntityTypeShape EntityType="yemiatworkdbModel.CustomerCustomerDemo" Width="1.5" PointX="10" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="yemiatworkdbModel.CustomerDemographic" Width="1.5" PointX="7.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="yemiatworkdbModel.EmployeeTerritory" Width="1.5" PointX="10.25" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="yemiatworkdbModel.Region" Width="1.5" PointX="5.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="yemiatworkdbModel.Territory" Width="1.5" PointX="8" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="yemiatworkdbModel.Category" Width="1.5" PointX="5.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="yemiatworkdbModel.Customer" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="yemiatworkdbModel.Customer1" Width="1.5" PointX="7.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="yemiatworkdbModel.Order" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="yemiatworkdbModel.OrderItem" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="yemiatworkdbModel.Product" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="yemiatworkdbModel.Shipper" Width="1.5" PointX="0.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="yemiatworkdbModel.Supplier" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="yemiatworkdbModel.Supplier1" Width="1.5" PointX="2.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="yemiatworkdbModel.Customer_and_Suppliers_by_City" Width="1.5" PointX="9.75" PointY="7.75" IsExpanded="true" />
+        <AssociationConnector Association="yemiatworkdbModel.FK_CustomerCustomerDemo" ManuallyRouted="false" />
+        <AssociationConnector Association="yemiatworkdbModel.FK_EmployeeTerritories_Territories" ManuallyRouted="false" />
+        <AssociationConnector Association="yemiatworkdbModel.FK_Territories_Region" ManuallyRouted="false" />
+        <AssociationConnector Association="yemiatworkdbModel.FK_ORDER_REFERENCE_CUSTOMER" ManuallyRouted="false" />
+        <AssociationConnector Association="yemiatworkdbModel.FK_ORDERITE_REFERENCE_ORDER" ManuallyRouted="false" />
+        <AssociationConnector Association="yemiatworkdbModel.FK_ORDERITE_REFERENCE_PRODUCT" ManuallyRouted="false" />
+        <AssociationConnector Association="yemiatworkdbModel.FK_PRODUCT_REFERENCE_SUPPLIER" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

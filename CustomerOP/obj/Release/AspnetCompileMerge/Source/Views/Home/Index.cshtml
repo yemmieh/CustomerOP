@@ -1,0 +1,21 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron" ng-app="MyApp">
+    <div ng-controller="NamesController">
+        <input ng-model="nim" />
+        <table>
+            <tr  ng-repeat="nam in names | filter:nim">
+                <td><a href="#">{{nam.name}}</a></td>
+                <td>{{nam.country}}</td>
+                <td>{{nam.sex}}</td>
+                <td>{{nam.occupation}}</td>
+            </tr>
+        </table>
+        @*<ul>
+            <li ng-repeat="name in names">{{name}}</li>
+        </ul>*@
+    </div>
+   
+</div>

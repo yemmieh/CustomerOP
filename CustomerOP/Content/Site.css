@@ -1,0 +1,133 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+@font-face {
+    font-family: 'dosisbold';
+    src: url('../fonts/dosis-bold-webfont.eot');
+    src: url('../fonts/dosis-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dosis-bold-webfont.woff2') format('woff2'),
+         url('../fonts/dosis-bold-webfont.woff') format('woff'),
+         url('../fonts/dosis-bold-webfont.ttf') format('truetype'),
+         url('../fonts/dosis-bold-webfont.svg#dosisbold')format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dosisextrabold';
+    src: url('../fonts/dosis-extrabold-webfont.eot');
+    src: url('../fonts/dosis-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dosis-extrabold-webfont.woff2') format('woff2'),
+         url('../fonts/dosis-extrabold-webfont.woff') format('woff'),
+         url('../fonts/dosis-extrabold-webfont.ttf') format('truetype'),
+         url('../fonts/dosis-extrabold-webfont.svg#dosisextrabold')format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dosisextralight';
+    src: url('../fonts/dosis-extralight-webfont.eot');
+    src: url('../fonts/dosis-extralight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dosis-extralight-webfont.woff2') format('woff2'),
+         url('../fonts/dosis-extralight-webfont.woff') format('woff'),
+         url('../fonts/dosis-extralight-webfont.ttf') format('truetype'),
+         url('../fonts/dosis-extralight-webfont.svg#dosisextralight')format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dosislight';
+    src: url('../fonts/dosis-light-webfont.eot');
+    src: url('../fonts/dosis-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dosis-light-webfont.woff2') format('woff2'),
+         url('../fonts/dosis-light-webfont.woff') format('woff'),
+         url('../fonts/dosis-light-webfont.ttf') format('truetype'),
+         url('../fonts/dosis-light-webfont.svg#dosislight')format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dosismedium';
+    src: url('../fonts/dosis-medium-webfont.eot');
+    src: url('../fonts/dosis-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dosis-medium-webfont.woff2') format('woff2'),
+         url('../fonts/dosis-medium-webfont.woff') format('woff'),
+         url('../fonts/dosis-medium-webfont.ttf') format('truetype'),
+         url('../fonts/dosis-medium-webfont.svg#dosismedium')format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dosisregular';
+    src: url('../fonts/dosis-regular-webfont.eot');
+    src: url('../fonts/dosis-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dosis-regular-webfont.woff2') format('woff2'),
+         url('../fonts/dosis-regular-webfont.woff') format('woff'),
+         url('../fonts/dosis-regular-webfont.ttf') format('truetype'),
+         url('../fonts/dosis-regular-webfont.svg#dosisregular')format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'dosissemibold';
+    src: url('../fonts/dosis-semibold-webfont.eot');
+    src: url('../fonts/dosis-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dosis-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/dosis-semibold-webfont.woff') format('woff'),
+         url('../fonts/dosis-semibold-webfont.ttf') format('truetype'),
+         url('../fonts/dosis-semibold-webfont.svg#dosissemibold')format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke: 1px rgba(0,0,0,0.1);
+}
+*{
+	transition:background 0.4s ease;
+}
+body{
+	font-family:dosissemibold !important;
+    position:relative;
+    text-align: left;
+    text-rendering: optimizeLegibility;    
+    background: #f2f2f2;
+    font-size:1em;
+    color:#0D47A1;
+    color:#222;
+}
+.table th{
+    background:#0960d9 !important;
+    color:white !important;
+    font-size:13px;
+}
+.table td{
+font-size:13px;
+}
